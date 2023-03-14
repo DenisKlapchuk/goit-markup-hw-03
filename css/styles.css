@@ -45,7 +45,7 @@ img {
 .container {
     width: 1158px;
     margin-left: auto;
-    margin-bottom: auto;
+    margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
 
@@ -111,9 +111,12 @@ img {
     letter-spacing: 0.02em;
     color: #434455;
 }   
+.address-list {
+    gap: 40px;
+
+}
 .address {
     margin-left: auto;
-    justify-content: flex-end;
 }
 
 .addres-list :focus {
@@ -126,7 +129,15 @@ img {
 /**--section-hero--*/
 
 .section-hero {
-    background-color:#2e2f42;
+    text-align: center;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #2e2f42; 
 }
 .hero-title {
     font-weight: 700;
@@ -135,6 +146,10 @@ img {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     text-align: center;
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 542px;
 
 }
 .primary-button {
@@ -147,6 +162,13 @@ img {
     background-color: #4D5AE5;
     cursor: pointer;
     border: none;
+    font-family: inherit;
+    width: 216px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 169px;
+    height: 56px;
+    border-radius: 4px;
     
 }
 .primary-button:focus {
@@ -159,6 +181,10 @@ img {
 }
 
 /**--section-features--*/
+.section-features {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .list {
     list-style: none
 }
@@ -168,6 +194,9 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42; 
+    margin-bottom: 8px;
+    display: flex
+    
 }
 .features-text {
     font-family: 'Roboto', sans-serif;
@@ -175,9 +204,17 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+
 }
 
 /**--section-what-do-we-do--*/
+.section-what-do-we-do{
+    width: 1128px;
+    height: 412px;
+    left: 156px;
+    top: 1016px;
+    justify-content: center;
+}
 .section-what-do-we-do-title {
     font-weight: 700;
     font-size: 36px;
@@ -186,6 +223,8 @@ img {
     text-transform: capitalize;
     color: #2E2F42;
     text-align: center;
+    margin-bottom: 72px;
+    align-items: center;
 }
 
 /**--section-our-team-- */
@@ -197,6 +236,7 @@ img {
     text-transform: capitalize;
     color: #2E2F42;
     text-align: center;
+    
 }
 .our-team-item-title {
     font-weight: 500;
