@@ -241,7 +241,6 @@ img {
     margin-top: 120px;
     padding-top: 120px;
     padding-bottom: 120px;
-    max-width: 1440px;
     justify-content: center;
 }
 
@@ -288,6 +287,9 @@ img {
     letter-spacing: 0.02em;
     color: #434455;
     padding-top: 8px;
+}
+.our-team-item-text {
+    background-color: #ffffff;
 }
 
 /**--footer-- */
