@@ -1,5 +1,6 @@
 /**--general--*/
 
+
 :root {
     --primary-color: #4D5AE5;
     --background-color: #ffffff;
@@ -23,6 +24,7 @@ a {
 }
 ul {
     gap: 24px;
+    display: flex;
     display: flex;
     list-style: none;
     margin: 0;
@@ -119,10 +121,10 @@ img {
     margin-left: auto;
 }
 
-.addres-list :focus {
+.address-link:focus {
     color: #404bbf;
 }
-.addres-list :hover {
+.address-link:hover {
     color: #404bbf
 }
 
@@ -268,6 +270,7 @@ img {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    background-color: #FFFFFF;
     
 }   
 
@@ -294,7 +297,12 @@ img {
 
 /**--footer-- */
 .footer {
-    background-color:#2e2f42;
+    color: var(--background-color);
+    padding-top: 60px;
+    padding-bottom: 60px;  
+    background-color: #2F303A;
+    border-bottom: 1px;
+    height: 312px;
 }
 
 .footer-logo-link {
@@ -306,6 +314,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+    margin-top: 100px;
 }
 .logo-web-footer {
     color: #F4F4FD;
@@ -317,6 +326,8 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:  #E7E9FC;
+    max-width: 264px;
+    padding-top: 16px;
 }
 
 /**--section-portfolio*/
@@ -329,13 +340,30 @@ img {
     color:#4D5AE5;
     cursor: pointer;
 }
-
+.section-portfolio {
+    padding-top: 96px;
+}
+.button-container .item-work-exemples:not(:last-child) {
+    margin-right: 8px;
+}
 .portfolio-button:hover {
     color: var(--background-color);
     background-color: #404BBF;
 }
 
+.button-container {
+    padding-top: 96px;
+    padding-bottom: 72px;
+}
 
+.example {
+    width: 264px;
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F4FD;
+}
 .item-title {
     font-weight: 500;
     font-size: 20px;
