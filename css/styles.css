@@ -322,6 +322,7 @@ img {
 .logo-web-footer {
     color: #F4F4FD;
 }
+
 .footer-text {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -376,7 +377,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     background-color: #FFFFFF;
-}
+} 
 
 .portfolio-item-text {
     padding-top: 32px;
@@ -384,7 +385,7 @@ img {
     border-bottom: 1px solid #E7E9FC;
     border-left: 1px solid #E7E9FC;
     border-right: 1px solid #E7E9FC;
-}
+} 
 
 .item-title {
     padding-bottom: 8px;
