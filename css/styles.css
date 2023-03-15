@@ -10,9 +10,7 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455 ;
 }
-h2 {
-    text-align: center;
-}
+
 p,h1,h2,h3,h4,h5,h6 {
     margin: 0px;
 }
@@ -23,7 +21,6 @@ a {
     text-decoration: none;
 }
 ul {
-    display: flex;
     display: flex;
     list-style: none;
     margin: 0;
@@ -299,9 +296,7 @@ img {
 
 /**--footer-- */
 .footer {
-    color: var(--background-color);
-    padding-top: 60px;
-    padding-bottom: 60px;  
+    color: var(--background-color);  
     background-color: #2F303A;
     border-bottom: 1px;
     padding-top: 100px;
@@ -352,12 +347,18 @@ img {
     padding: 12px 24px;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
+    
+}
+.button-container {
+    gap: 24px;
 }
 
 .our-team-item-wrap {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    row-gap: 48px;
+    column-gap: 24px;
+
 }
 
 .portfolio-button:hover {
@@ -382,6 +383,7 @@ img {
 .portfolio-item-text {
     padding-top: 32px;
     padding-bottom: 32px;
+    padding-left: 16px;
     border-bottom: 1px solid #E7E9FC;
     border-left: 1px solid #E7E9FC;
     border-right: 1px solid #E7E9FC;
@@ -393,7 +395,7 @@ img {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;  
+    color: #2E2F42;
 }
 .item-text {
     font-size: 16px;
