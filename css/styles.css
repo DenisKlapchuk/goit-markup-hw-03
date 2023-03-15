@@ -56,7 +56,6 @@ img {
 /**--header--*/
 
 .header {
-    height: 72px;
     margin-left: 0px;
     margin-top: 0px;
     padding-top: 24px;
@@ -81,11 +80,11 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+    margin-right: 76px;
     
 }
 .logo-web {
     color: #2E2F42;
-    margin-right: 76px;
 }
 .header-link {
     font-weight: 500;
@@ -226,6 +225,7 @@ img {
     top: 1016px;
     justify-content: center;
     margin: auto;
+    padding-bottom: 120px;
 }
 .section-what-do-we-do-title {
     font-weight: 700;
@@ -241,8 +241,8 @@ img {
 /**--section-our-team-- */
 .section-our-team {
     background-color: var(--secondary-color);
-    margin-top: 120px;
     padding-top: 120px;
+    margin-top: 120px;
     padding-bottom: 120px;
     justify-content: center;
 }
@@ -255,18 +255,13 @@ img {
     text-transform: capitalize;
     color: #2E2F42;
     text-align: center;
-    padding-bottom: 72px;
-    padding-top: 32px;
-    
+    margin-bottom: 72px;
 }
 
 .our-team-item{
     font-size: 18px;
     line-height: calc(36/18);
     letter-spacing: 0.06em;
-    border-radius: 6px;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    padding-bottom: 32px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -280,7 +275,6 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    padding-top: 32px;
 }
 
 .our-team-position {
@@ -293,6 +287,8 @@ img {
 }
 .our-team-item-text {
     background-color: #ffffff;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 /**--footer-- */
@@ -302,7 +298,8 @@ img {
     padding-bottom: 60px;  
     background-color: #2F303A;
     border-bottom: 1px;
-    height: 312px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-logo-link {
@@ -314,8 +311,8 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
-    margin-top: 100px;
 }
+
 .logo-web-footer {
     color: #F4F4FD;
 }
@@ -327,12 +324,13 @@ img {
     letter-spacing: 0.02em;
     color:  #E7E9FC;
     max-width: 264px;
-    padding-top: 16px;
+    margin-top: 16px;
 }
 
 /**--section-portfolio*/
 .section-portfolio {
     padding-bottom: 120px;
+    padding-top: 96px;
     justify-content: center;
 }
 
@@ -344,6 +342,7 @@ img {
     letter-spacing: 0.04em;
     color:#4D5AE5;
     cursor: pointer;
+    padding: 12px 24px;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
 }
@@ -351,23 +350,28 @@ img {
 .our-team-item-wrap {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 48px;
-
-
 }
+
 .portfolio-button:hover {
     color: var(--background-color);
     background-color: #404BBF;
 }
 
 .button-container {
-    padding-top: 96px;
     padding-bottom: 72px;
     justify-content: center;
 }
 
-.item-title {
+.portfolio-item-text {
     padding-top: 32px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #E7E9FC;
+    border-left: 1px solid #E7E9FC;
+    border-right: 1px solid #E7E9FC;
+
+}
+
+.item-title {
     padding-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
